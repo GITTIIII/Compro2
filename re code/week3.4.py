@@ -1,0 +1,18 @@
+n = input("Enter 5 numbers seperated by space: ")
+n = n.split(" ")
+new=[]
+for x in n:
+    new.append(int(x))
+print("Original:",new)
+print("Step 1: Add 8 and 4 to the end of the list")
+new.append(8)
+new.append(4)
+print("    ",new)
+print("Step 2: insert 2 after 3 and 6 after 5")
+new.insert(1,2)
+new.insert(4,6)
+print("    ",new)
+print("Step 3: remove 1 and 8")
+new.remove(1)
+new.remove(8)
+print("",new)

@@ -1,0 +1,7 @@
+name = input("Name: ")
+id = input("ID: ")
+gpa = float(input("GPA: "))
+age = int(input("Age: "))
+print("12345678901234567890123456789012345")
+print("{:<10}{:<10}{:<8}{:<3}".format("NAME","ID","GPA","AGE"))
+print("{:<10}{:<10}{:<8}{:<3}".format(name,id,gpa,age))
